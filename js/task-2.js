@@ -2,7 +2,7 @@ function getShippingMessage(country,price,deliveryFee)
 {let funcCountry = country;
     let funcPrice = price;
     let funcDeliveryFee = deliveryFee;
-    return (`Shipping to ${funcCountry} will cost ${funcPrice + funcDeliveryFee} credits!"`);
+    return (`Shipping to ${funcCountry} will cost ${funcPrice + funcDeliveryFee} credits!`);
 }
 console.log(getShippingMessage("Australia", 120, 50)); // "Shipping to Australia will cost 170 credits"
 console.log(getShippingMessage("Germany", 80, 20)); // "Shipping to Germany will cost 100 credits"
